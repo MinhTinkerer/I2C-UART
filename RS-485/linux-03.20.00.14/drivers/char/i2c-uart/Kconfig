@@ -1,0 +1,9 @@
+
+menuconfig I2C_UART_SUPPORT
+	bool "I2C_Uart_support"
+	help
+	  Say Y to enable I2C to UART conversion support.  This allows control of supported
+	  converter from both userspace and optionally, by kernel events (triggers).
+
+
+
